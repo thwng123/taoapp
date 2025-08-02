@@ -137,7 +137,7 @@
     <div class="appilix_container">
         <div class="nav_bar_elements">
             <div class="nav_bar_container">
-                <a href="https://appilix.com" class="appilix_logo">
+                <a href="http://localhost/taoapp/" class="appilix_logo">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/YSByiPaHWT99.svg" alt="Appilix">
                 </a>
                 <div class="action_menu"></div>

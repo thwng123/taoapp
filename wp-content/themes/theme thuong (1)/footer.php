@@ -8,58 +8,37 @@
             <div class="column fst_col">
                 <div class="footer_links">
                     <h6 class="h6">About</h6>
-                    <ul class="foo_links">
-                        <li>
-                            <a href="https://appilix.com/contact-us">Contact Us</a>
-                        </li>
-                        <li>
-                            <a href="https://appilix.com/privacy-policy">Privacy Policy</a>
-                        </li>
-                        <li>
-                            <a href="https://appilix.com/refund-policy">Refund Policy</a>
-                        </li>
-                        <li>
-                            <a href="https://appilix.com/terms-conditions">Terms & Conditions</a>
-                        </li>
-                    </ul>
+                    <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'footer1', // Tên location bạn sẽ đăng ký
+                        'container' => false, // Không bọc thêm <div>
+                        'menu_class' => 'foo_links', // Thêm class vào <ul>
+                    ));
+                    ?>
                 </div>
             </div>
             <div class="column">
                 <div class="footer_links">
                     <h6 class="h6">Discover</h6>
-                    <ul class="foo_links">
-                        <li>
-                            <a href="https://appilix.com/faq">FAQs</a>
-                        </li>
-                        <li>
-                            <a href="https://appilix.com/pricing">Plans & Pricing</a>
-                        </li>
-                        <li>
-                            <a href="https://appilix.com/knowledge-base/">Knowledge base</a>
-                        </li>
-                        <li>
-                            <a href="https://appilix.com/changelogs">Changelogs</a>
-                        </li>
-                    </ul>
+                    <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'footer2', // Tên location bạn sẽ đăng ký
+                        'container' => false, // Không bọc thêm <div>
+                        'menu_class' => 'foo_links', // Thêm class vào <ul>
+                    ));
+                    ?>
                 </div>
             </div>
             <div class="column">
                 <div class="footer_links">
                     <h6 class="h6">Resources</h6>
-                    <ul class="foo_links">
-                        <li>
-                            <a href="https://appilix.com/articles">Articles</a>
-                        </li>
-                        <li>
-                            <a href="https://appilix.com/examples">Example Apps</a>
-                        </li>
-                        <li>
-                            <a href="https://appilix.com/web-to-app">Web to App</a>
-                        </li>
-                        <li>
-                            <a href="https://appilix.com/wordpress-to-app">WordPress to App</a>
-                        </li>
-                    </ul>
+                    <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'footer3', // Tên location bạn sẽ đăng ký
+                        'container' => false, // Không bọc thêm <div>
+                        'menu_class' => 'foo_links', // Thêm class vào <ul>
+                    ));
+                    ?>
                 </div>
             </div>
             <div class="column">
